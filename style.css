@@ -37,7 +37,8 @@ header {
 .cont1 img {
     width: 90%;
 }
-.cont1 img:hover{
+
+.cont1 img:hover {
     cursor: pointer;
 }
 
@@ -56,9 +57,10 @@ header {
     text-decoration: none;
     color: #000000;
 }
-.cont2 li a:hover{
+
+.cont2 li a:hover {
     cursor: pointer;
-    text-decoration:underline rgb(85, 213, 255);
+    text-decoration: underline rgb(85, 213, 255);
 }
 
 .cont3 ul {
@@ -74,9 +76,10 @@ header {
     color: #000000;
     font-size: 20px;
 }
-.cont3 a i:hover{
+
+.cont3 a i:hover {
     cursor: pointer;
-    text-decoration:underline rgb(85, 213, 255);
+    text-decoration: underline rgb(85, 213, 255);
 }
 
 .cont4 {
@@ -166,15 +169,21 @@ header {
 /* <!-- body2....... --> */
 .second {
     width: 100%;
-    height: 900px;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .second h1 {
     text-align: center;
-    padding: 100px;
+    margin-bottom: 50px;
     font-size: 60px;
     font-weight: bolder;
     color: rgb(112, 112, 112);
+
 }
 
 .sec1 {
@@ -185,7 +194,6 @@ header {
     align-items: center;
     flex-flow: row wrap;
     align-content: space-around;
-    margin: 0px 90px 0px 140px;
 }
 
 .sec1>div {
@@ -196,7 +204,6 @@ header {
 .sec1 img {
     border-radius: 25px;
     width: 235px;
-    margin-left: 18px;
 }
 
 .sec1 p {
@@ -212,17 +219,22 @@ header {
     height: 570px;
     width: 100%;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .third1 {
     width: 50%;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 20px;
-    margin: 0px 0px 0px 210px;
-    padding: 70px 120px 0px 120px;
+    padding: 30px 120px 0px 120px;
     height: 400px;
-    align-items: center;
     color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .third1 h1 {
@@ -376,16 +388,29 @@ header {
     width: 100%;
     height: 750px;
     background-color: rgb(229, 146, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth>div h1 {
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 
 .sixth1 {
-    width: 80%;
+    width: 70%;
     height: 590px;
-    margin: 0px 10px 10px 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 
 .sixth1>div {
     width: 45%;
@@ -393,30 +418,25 @@ header {
     margin: 10px;
 }
 
-.sixth>div h1 {
-    text-align: center;
-    padding: 70px 0px 40px 0px;
-    font-size: 60px;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-}
-
 .sixthone {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: normal;
 }
 
+
 .sixthone>div {
-    margin: 10px 5px 4px 5px;
-    width: 230px;
+    display: flex;
+    flex: row wrap;
+    width: 160px;
     height: 120px;
+    margin-left: 20px;
 }
 
+
 .sixthone>div img {
-    margin-left: 120px;
     width: 70px;
     height: 60px;
     border-radius: 50%;
@@ -438,14 +458,13 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px 0px 0px 210px;
-    width: 67%;
+    width: 100%;
     height: 780px;
 }
 
 .seventh2 {
-    margin: 10px;
-    width: 60%;
+    margin: 10px 10px 10px 160px;
+    width: 40%;
     height: 760px;
     font-size: 17px;
     font-weight: normal;
